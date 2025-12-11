@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adam Aiman — My Family</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f6fa; }
+    .container { max-width: 900px; margin: 30px auto; padding: 20px; }
+    h1 { text-align: center; margin-bottom: 20px; }
+    p { line-height: 1.6; }
+    .back-btn { display: inline-block; margin-bottom: 20px; background: #0b74de; padding: 10px 16px; color: #fff; border-radius: 8px; text-decoration: none; }
+    .full-family { display:flex; gap:12px; flex-wrap:wrap; margin-top:20px; }
+    .full-family img { width:48%; max-width:420px; height:auto; border-radius:10px; box-shadow:0 6px 16px rgba(0,0,0,0.08); }
+    .family-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 25px; }
+    .card { background: #fff; padding: 16px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.07); }
+    img.placeholder {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+    h3 { margin: 12px 0 6px; text-align:center }
+    .caption { color: #555; font-size: 14px; text-align:center }
+    table.info { width:100%; border-collapse: collapse; margin-top:12px; }
+    table.info td { padding:8px; border:1px solid #e2e8f0; vertical-align:top; }
+    table.info td.label { width:38%; background:#eef6ff; font-weight:600; }
+    table.info td.value { background:#fff; }
+    @media (max-width:800px){ .full-family img{width:100%;} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-btn">⬅ Back to Resume</a>
+    <h1>My Family</h1>
+
+    <p>
+      Family is an important part of my life. Here is a little introduction about the people who support me,
+      guide me, and inspire me every day.
+    </p>
+
+    <!-- Two smaller full-family photos side by side -->
+    <div class="full-family">
+      <img src="family1.jpg" alt="Full Family Photo 1">
+      <img src="family2.jpg" alt="Full Family Photo 2">
+    </div>
+
+    <!-- Individual family members with table (left labels, right fillable) -->
+    <div class="family-grid">
+      <div class="card">
+        <h3>Family Member 1</h3>
+        <img class="placeholder" src="abah.jpg" alt="Member 1" />
+        <table class="info">
+          <tr><td class="label">Name</td><td class="value">Azizi Bin Aziz</td></tr>
+          <tr><td class="label">Age</td><td class="value">49</td></tr>
+          <tr><td class="label">Date of Birth</td><td class="value">27/4/1976</td></tr>
+          <tr><td class="label">Occupation</td><td class="value">Navy Pension</td></tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h3>Family Member 2</h3>
+        <img class="placeholder" src="ibu.jpg" alt="Member 2" />
+        <table class="info">
+          <tr><td class="label">Name</td><td class="value">Isfahaizam Binti Mohd Hashim</td></tr>
+          <tr><td class="label">Age</td><td class="value">45</td></tr>
+          <tr><td class="label">Date of Birth</td><td class="value">9/9/1980</td></tr>
+          <tr><td class="label">Occupation</td><td class="value">Secretary of Office</td></tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h3>Family Member 3</h3>
+        <img class="placeholder" src="Amira.jpg" alt="Member 3" />
+        <table class="info">
+          <tr><td class="label">Name</td><td class="value">Amira Fatihah Binti Azizi</td></tr>
+          <tr><td class="label">Age</td><td class="value">20 Years Old</td></tr>
+          <tr><td class="label">Date of Birth</td><td class="value">20/6/2005</td></tr>
+          <tr><td class="label">Study</td><td class="value">Diploma in Industrial Design at UiTM Seri Iskandar, Perak.</td></tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h3>Family Member 4</h3>
+        <img class="placeholder" src="alani.jpg" alt="Member 4" />
+        <table class="info">
+          <tr><td class="label">Name</td><td class="value">Alani Fatini Binti Azizi</td></tr>
+          <tr><td class="label">Age</td><td class="value">17</td></tr>
+          <tr><td class="label">Date of Birth</td><td class="value">19/3/2008</td></tr>
+          <tr><td class="label">Study</td><td class="value">Sekolah Raja Nazrin, Kampung Gajah.</td></tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h3>Family Member 5</h3>
+        <img class="placeholder" src="uwais.jpg" alt="Member 5" />
+        <table class="info">
+          <tr><td class="label">Name</td><td class="value">Ahmad Uwais Al-Qarni Bin Azizi</td></tr>
+          <tr><td class="label">Age</td><td class="value">8 years Old</td></tr>
+          <tr><td class="label">Date of Birth</td><td class="value">21/2/2017</td></tr>
+          <tr><td class="label">Study</td><td class="value">Sekolah Rendah Islam Al-Ummah, Manjung</td></tr>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
+
+
+
